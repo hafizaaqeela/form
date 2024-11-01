@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+</head>
+<body style="color: rgb(28, 189, 127);">
+   
+    <form style="border: 3px dotted; width: 600px; margin: 10px auto; padding: 10px; background-color: rgb(5, 69, 78)">
+        <h1 style="color: rgb(157, 240, 243)"><center><b><u>Create Account</u></b></center></h1>
+        <label for="First Name*">First Name*
+            <input type="text" placeholder="enter your first name"> </label>
+           <label for="Last Name">Last name
+            <input type="text" placeholder="enter your last name"> </label> 
+       
+        <p>Email* <br>
+            <input type="email" name="email" placeholder="enter your email here" size="68px">
+        </p>
+       <label for="Password*">Password* 
+        <input type="text" placeholder="enter your password" size="15px">
+       </label>
+       <label for="Confirm Password*">Confirm Password* 
+        <input type="text" placeholder="enter your password again" size="18px">
+       </label>
+       <p>Gender: <br>
+        <input type="radio" name="gender" value="Male"><span style="color: rgb(157, 240, 243)";>Male</span>
+        <input type="radio" name="gender" value="Female"><span style="color:rgb(157, 240, 243)">Female</span>
+        </p>
+        <p>Hobbies <br>
+        <input type="checkbox" name="hobbies" value="Music"><span style="color: rgb(157, 240, 243)";>Music</span>
+        <input type="checkbox" name="hobbies" value="Sports"><span style="color: rgb(157, 240, 243)";>Sports</span>
+        <input type="checkbox" name="hobbies" value="Travel"><span style="color: rgb(157, 240, 243)";>Travel</span>
+        <input type="checkbox" name="hobbies" value="Movies"><span style="color: rgb(157, 240, 243)";>Movies</span>
+       </p>
+       <p> Source of Income
+        <select><option value="employeed">employeed</option>
+        <option value="unemplyed">unemplyed</option>
+        <option value="student">student</option>
+        <option value="bussiness">bussiness</option></select>
+       </p>
+       <p>Income</p>
+       <input type="range" name="income" style="color: greenyellow;"> <span>20k</span>
+       <p> Upload Profile Picture <br>
+        <input type="file" name="Upload Profile Picture">
+       </p>
+       <p> Age
+        <input type="number">
+       </p>
+       <p>Bio <br>
+        <textarea cols="70" rows="10"></textarea>
+       </p>
+       <input type="submit" name="Create" value="create" style="background-color: rgba(23, 184, 117, 0.76); color: white; ">
+       
+    </form>
+</body>
+</html>
